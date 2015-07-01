@@ -29,6 +29,7 @@ namespace FormABD
             dateTimePicker_date.Visible = true;
 
             label_date.Visible = true;
+            label_area.Visible = true;
 
             textBox_hrs.Visible = true;
             textBox_Min.Visible = true;

@@ -45,6 +45,7 @@
             this.textBox_datosSolictante = new System.Windows.Forms.TextBox();
             this.button_acept = new System.Windows.Forms.Button();
             this.button_cancel = new System.Windows.Forms.Button();
+            this.label_area = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox_datosSolicitante.SuspendLayout();
             this.SuspendLayout();
@@ -205,11 +206,22 @@
             this.button_cancel.UseVisualStyleBackColor = true;
             this.button_cancel.Visible = false;
             // 
+            // label_area
+            // 
+            this.label_area.AutoSize = true;
+            this.label_area.Location = new System.Drawing.Point(50, 244);
+            this.label_area.Name = "label_area";
+            this.label_area.Size = new System.Drawing.Size(32, 13);
+            this.label_area.TabIndex = 14;
+            this.label_area.Text = "Area:";
+            this.label_area.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 315);
+            this.Controls.Add(this.label_area);
             this.Controls.Add(this.button_cancel);
             this.Controls.Add(this.button_acept);
             this.Controls.Add(this.groupBox_datosSolicitante);
@@ -255,6 +267,7 @@
         private System.Windows.Forms.TextBox textBox_datosSolictante;
         private System.Windows.Forms.Button button_acept;
         private System.Windows.Forms.Button button_cancel;
+        private System.Windows.Forms.Label label_area;
     }
 }
 
