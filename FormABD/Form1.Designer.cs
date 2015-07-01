@@ -43,8 +43,8 @@
             this.label_res = new System.Windows.Forms.Label();
             this.groupBox_datosSolicitante = new System.Windows.Forms.GroupBox();
             this.textBox_datosSolictante = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_acept = new System.Windows.Forms.Button();
+            this.button_cancel = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox_datosSolicitante.SuspendLayout();
             this.SuspendLayout();
@@ -185,31 +185,33 @@
             this.textBox_datosSolictante.Size = new System.Drawing.Size(188, 204);
             this.textBox_datosSolictante.TabIndex = 0;
             // 
-            // button1
+            // button_acept
             // 
-            this.button1.Location = new System.Drawing.Point(486, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_acept.Location = new System.Drawing.Point(486, 284);
+            this.button_acept.Name = "button_acept";
+            this.button_acept.Size = new System.Drawing.Size(75, 23);
+            this.button_acept.TabIndex = 12;
+            this.button_acept.Text = "Aceptar";
+            this.button_acept.UseVisualStyleBackColor = true;
+            this.button_acept.Visible = false;
             // 
-            // button2
+            // button_cancel
             // 
-            this.button2.Location = new System.Drawing.Point(405, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_cancel.Location = new System.Drawing.Point(405, 284);
+            this.button_cancel.Name = "button_cancel";
+            this.button_cancel.Size = new System.Drawing.Size(75, 23);
+            this.button_cancel.TabIndex = 13;
+            this.button_cancel.Text = "Cancelar";
+            this.button_cancel.UseVisualStyleBackColor = true;
+            this.button_cancel.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 315);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_cancel);
+            this.Controls.Add(this.button_acept);
             this.Controls.Add(this.groupBox_datosSolicitante);
             this.Controls.Add(this.label_res);
             this.Controls.Add(this.textBox_area);
@@ -251,8 +253,8 @@
         private System.Windows.Forms.Label label_res;
         private System.Windows.Forms.GroupBox groupBox_datosSolicitante;
         private System.Windows.Forms.TextBox textBox_datosSolictante;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_acept;
+        private System.Windows.Forms.Button button_cancel;
     }
 }
 

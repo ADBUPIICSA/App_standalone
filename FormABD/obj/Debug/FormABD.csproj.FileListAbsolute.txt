@@ -7,3 +7,12 @@ c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\
 c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.csproj.GenerateResource.Cache
 c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.exe
 c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.pdb
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\bin\Debug\FormABD.exe.config
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.exe
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.pdb
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\bin\Debug\FormABD.exe
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\bin\Debug\FormABD.pdb
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.csprojResolveAssemblyReference.cache
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.Form1.resources
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.Properties.Resources.resources
+C:\Users\JAIR\Documents\Visual Studio 2013\Projects\App_standalone\FormABD\obj\Debug\FormABD.csproj.GenerateResource.Cache

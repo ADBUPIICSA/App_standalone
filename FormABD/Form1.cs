@@ -35,7 +35,10 @@ namespace FormABD
             text_res_name.Visible = true;
             textBox_area.Visible = true;
 
+            button_acept.Visible = true;
+            button_cancel.Visible = true;
 
         }
+
     }
 }
