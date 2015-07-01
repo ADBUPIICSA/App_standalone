@@ -1,0 +1,9 @@
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\bin\Debug\FormABD.exe.config
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\bin\Debug\FormABD.exe
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\bin\Debug\FormABD.pdb
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.csprojResolveAssemblyReference.cache
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.Form1.resources
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.Properties.Resources.resources
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.csproj.GenerateResource.Cache
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.exe
+c:\users\ligorioedwin\documents\visual studio 2012\Projects\FormABD\FormABD\obj\Debug\FormABD.pdb
