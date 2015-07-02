@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Nuevo_item = new System.Windows.Forms.ToolStripMenuItem();
             this.New_date = new System.Windows.Forms.ToolStripMenuItem();
+            this.new_proof_res = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox_date = new System.Windows.Forms.ComboBox();
             this.dateTimePicker_date = new System.Windows.Forms.DateTimePicker();
             this.label_date = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.button_acept = new System.Windows.Forms.Button();
             this.button_cancel = new System.Windows.Forms.Button();
             this.label_area = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox_datosSolicitante.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +65,8 @@
             // Nuevo_item
             // 
             this.Nuevo_item.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.New_date});
+            this.New_date,
+            this.new_proof_res});
             this.Nuevo_item.Name = "Nuevo_item";
             this.Nuevo_item.Size = new System.Drawing.Size(54, 20);
             this.Nuevo_item.Text = "Nuevo";
@@ -71,9 +74,16 @@
             // New_date
             // 
             this.New_date.Name = "New_date";
-            this.New_date.Size = new System.Drawing.Size(95, 22);
+            this.New_date.Size = new System.Drawing.Size(187, 22);
             this.New_date.Text = "Cita";
             this.New_date.Click += new System.EventHandler(this.New_date_Click);
+            // 
+            // new_proof_res
+            // 
+            this.new_proof_res.Name = "new_proof_res";
+            this.new_proof_res.Size = new System.Drawing.Size(187, 22);
+            this.new_proof_res.Text = "Resultado de pruebas";
+            this.new_proof_res.Click += new System.EventHandler(this.new_proof_res_Click);
             // 
             // comboBox_date
             // 
@@ -216,11 +226,31 @@
             this.label_area.Text = "Area:";
             this.label_area.Visible = false;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Curriculum Vitae",
+            "Documentación Completa",
+            "Entrevista",
+            "Cuestionario",
+            "Estudio Socio-Economico",
+            "Examen Psicometrico",
+            "Prueba de Honestidad"});
+            this.checkedListBox1.Location = new System.Drawing.Point(130, 310);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(197, 120);
+            this.checkedListBox1.TabIndex = 15;
+            this.checkedListBox1.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(583, 315);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label_area);
             this.Controls.Add(this.button_cancel);
             this.Controls.Add(this.button_acept);
@@ -238,7 +268,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Agendar evento";
+            this.Text = "Bienvenido";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox_datosSolicitante.ResumeLayout(false);
@@ -268,6 +298,8 @@
         private System.Windows.Forms.Button button_acept;
         private System.Windows.Forms.Button button_cancel;
         private System.Windows.Forms.Label label_area;
+        private System.Windows.Forms.ToolStripMenuItem new_proof_res;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 
